@@ -1,0 +1,40 @@
+html, body {height:100%;margin:0;padding:0;}
+#story-bg {
+  position:fixed;
+  width:200px;
+  right:500px;
+  height:100%;
+  background:linear-gradient(to right, white, rgba(255,255,255,0));
+}
+#story {
+  position:absolute;
+  left:0;
+  right:720px;
+  height:100%;
+  text-align:justify;
+  padding-left:50px;
+}
+#story p {
+  color:#000;
+  font-size:16px;
+}
+#story h1 {
+  padding-top:20px;
+  border-bottom:1px solid #ccc;
+}
+#story img {
+  max-width: 800px;
+  width:100%;
+  padding:10px 0;
+}
+#story:after {
+  content:'';
+  display:block;
+  height:200px;
+  width:100px;
+}
+#map {
+  position:fixed;
+  width:800px;right:-100px;
+  height:100%;
+}
