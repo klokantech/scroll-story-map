@@ -102,7 +102,7 @@ function init() {
     evt.context.filter = 'none';
   });
 
-  loadMapTilerTileJSON('https://wmts.maptiler.com/aHR0cHM6Ly9tYXBoYWNrYXRob24uZ2l0aHViLmlvL2RhdGEtc2V0cy9tb3JnYW4vbWV0YWRhdGEuanNvbg/json', function(source, bounds, extent) {
+  loadMapTilerTileJSON('http://wmts.maptiler.com/aHR0cHM6Ly9tYXBoYWNrYXRob24uZ2l0aHViLmlvL2RhdGEtc2V0cy9tb3JnYW4xNjgyL21ldGFkYXRhLmpzb24/json', function(source, bounds, extent) {
     map = new ol.Map({
       layers: [
         new ol.layer.Tile({
